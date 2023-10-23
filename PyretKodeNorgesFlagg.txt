@@ -1,0 +1,42 @@
+#Proposjoner: 22 lengde : 16 bredde
+#Lengde: 6(rød): 1(hvit): 2(blå): 1(hvit): 12(rød)
+#Bredde: 6(rød): 1(hvit): 2(blå): 1(hvit): 6(rød)
+
+#Koden jeg endte opp med: 
+
+place-image(rectangle(2000, 20, "solid", "blue"), 1000, 80,
+
+place-image(rectangle(130, 10, "solid", "white"), 155, 95,
+    place-image(rectangle(80, 10, "solid", "white"), 30, 95,
+
+place-image(rectangle(130, 10, "solid", "white"), 155, 65, 
+place-image(rectangle(20, 70, "solid", "blue"), 80, 65,
+place-image(rectangle(80, 10, "solid", "white"), 30, 65,
+
+place-image(rectangle(120, 60, "solid", "red"), 160, 130,
+place-image(rectangle(10, 60, "solid", "white"), 95, 130,
+place-image(rectangle(20, 60, "solid", "blue"), 80, 130,
+place-image(rectangle(10, 60, "solid", "white"), 65, 130,
+place-image(rectangle(60, 60, "solid", "red"), 30, 130,
+      
+        place-image(rectangle(120, 60, "solid", "red"), 160, 30,
+      place-image(rectangle(10, 60, "solid", "white"), 95, 30,
+    place-image(rectangle(20, 60, "solid", "blue"), 80, 30, 
+    place-image(rectangle(10, 60, "solid", "white"), 65, 30, 
+place-image(
+  rectangle(60, 60, "solid", "red"),
+  30, 30,
+                                empty-color-scene(220, 160, "transparent")))))))))))))))))
+
+
+#Kode jeg prøvde, men fikk ikke helt til: 
+
+beside(rectangle(10, 10, "solid", "green"), 
+  
+above-align("right", rectangle(120, 60, "solid", "red"), above-align("right", rectangle(120, 10, "solid", "white"), above-align("right", rectangle(120, 20, "solid", "blue"), above-align("right", rectangle(120, 10, "solid", "white"),
+        
+        
+        beside(rectangle(60, 60, "solid", "red"),
+beside(rectangle(10, 60, "solid", "white"),
+              beside(rectangle(20, 60, "solid", "blue"),
+              beside(rectangle(10, 60, "solid", "white"), rectangle(120, 60, "solid", "red"))))))))))
